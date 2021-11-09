@@ -1,10 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import GifExpertApp from "./GifExpertApp";
-import "./index.css";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import reportWebVitals from "./reportWebVitals";
+import { GifExpertApp } from './GifExpertApp';
 
-ReactDOM.render(<GifExpertApp />, document.getElementById("root"));
+import './index.css';
 
-reportWebVitals();
+ReactDOM.render(
+  <GifExpertApp />,
+  document.getElementById('root')
+);
+
